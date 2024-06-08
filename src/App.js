@@ -1,13 +1,14 @@
 import './App.css';
-import { ClassComp } from './components/ClassComp';
-import { FuncComp } from './components/FuncComp';
 import React from 'react';
+import { Comp3 } from './conditonalRendering/Comp3';
+
+
+
 function App() {
   return (
-    <React.Fragment>
-   <FuncComp/>
-   <ClassComp/>
-    </React.Fragment>
+    <>
+   <Comp3/>
+    </>
   );
 }
 
