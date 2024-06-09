@@ -1,14 +1,12 @@
 import './App.css';
 import React from 'react';
-import { Comp3 } from './conditonalRendering/Comp3';
-import { ParentComp } from './props/ParentComp';
-
+import { Parent } from './contextAPI/Parent';
 
 
 function App() {
   return (
     <>
-    <ParentComp/>
+       <Parent/>
     </>
   );
 }
