@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-export const Products = () => {
+export const Product = () => {
     
     let[products,changeState]  = useState([])
 
